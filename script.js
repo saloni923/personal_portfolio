@@ -3,7 +3,7 @@ let menuBtn = document.getElementById('menuBtn');
 
 menuBtn.addEventListener('click',function(e){
     document.querySelector('body').classList.toggle('mobile-nav-active');
-    this.classList.toggle('fa-user');
+    this.classList.toggle('fa-times');
 });
 
 let typed =new Typed('.auto-input',{
